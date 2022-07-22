@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.top_section {
+    background-color: rgb(36, 57, 148);
+    height: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+.top_section .top_txt {
+    color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+}
+.top_nav {
+     display: flex;
+    margin-left: 3%;
+}
+.top_nav a {
+    text-decoration: none;
+    padding: 10px 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(36, 57, 148);
+}
+
+.top_nav .Secure_delivery_txt {
+    display: flex;
+    align-items: center;
+    color:  rgb(36,57,148);
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.top_nav .vl {
+    border-left: 1px solid lightgray;
+    margin-left: 1%;
+    margin-bottom: -0.8%;
+}
+.top_nav .help_txt  {
+    display: flex;
+    align-items: center;
+    color:  rgb(36,57,148);
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.top_nav .num {
+    display: flex;
+    padding: 11px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-size: 15px;
+}
+.top_nav .lang_txt {
+    display: flex;
+    align-items: center;
+    color:  rgb(36,57, 148);
+    margin-left: 1%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top_nav .country_txt {
+    display: flex;
+    align-items: center;
+    color: rgb(36,57,148);
+    margin-left: 2%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.horizontal_line {
+    border-bottom: 1px solid lightgray;
+    height: 10px;
+}
+.top_section_2 {
+    display: flex;
+    height: 50px;
+    margin-left: 3%;
+    padding: 20px 0px;
+}
+.top_section_2 .name_txt {
+    padding: 18px 5px;
+    display: flex;
+    font-size: 30px;
+    color: rgb(36, 57, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.top_section_2 .location_txt {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 10%;
+    height: 40px;
+    margin-left: 3%;
+    padding: 10px 10px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.top_section_2 .location_select_txt {
+ color: rgb(36, 57, 148);
+ padding: 33px 5px;
+ margin-left: -11.2%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 13px;
+}
+.top_section_2 .search_opt {
+    width: 45%;
+    display: flex;
+    margin-left: 5%;
+    align-items: baseline;
+    border: 2px solid  rgb(246, 246, 246);
+    margin-bottom: -1%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+}
+.top_section_2 .fa-user-o {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    width: 5%;   
+    border-radius: 50%;
+}
+.top_section_2 .money_txt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+.top_section_2 .fa-shopping-bag {
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    width: 5%;
+}
